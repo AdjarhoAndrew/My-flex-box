@@ -1,0 +1,50 @@
+"{ margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+
+
+
+body { background-color: white; border-radius: 50px;}
+main{ width: 50%; padding: 10px; margin: auto;
+     display:flex; 
+     justify-content: center; 
+     align-content:center; border-radius: 20px;}
+    
+
+     .first.flex{background-color:hsl(31, 77%, 52%); color: white; height:70vh; align-content: center;
+    padding:2em; }
+    .first.flex h3{font-size: 20px;  padding-top:5px; padding-bottom: 30px; font-weight: 700px; font-family: 'Big shoulder Display';}
+            .first.flex p{ font-size: 15px; padding-bottom:50px; padding-top: 0px; font-weight: 400; font-family: 'lexend Deca'; letter-spacing: 1px; line-height: 24px;
+                color: hsl(31, 0%, 100%, 0.75)}
+            .first.flex button{ color:hsl(31, 77%, 52%); width:100px; border-radius: 50px; background-color: white;
+                border: none; margin: 4px; padding: 10px; cursor: pointer;
+                 ; display: inline-block;}
+  
+
+.second.flex{background-color:hsl(184, 100%, 22%); color: white; height:70vh; align-content:center;
+            padding:2em; }
+            .second.flex h3{font-size: 20px;  padding-top:5px; padding-bottom: 30px; font-weight: 700px; font-family: 'Big shoulder Display';}
+            .second.flex p{ font-size: 15px; padding-bottom:50px; padding-top: 0px; font-weight: 400; font-family: 'lexend Deca';letter-spacing: 1px; line-height: 28px;
+                color: hsl(0, 0%, 100%, 0.75)}
+            .second.flex button{ color:hsl(184, 100%, 22%); width:100px; border-radius: 50px; background-color: white;
+                border: none; margin: 4px; padding: 10px; cursor: pointer;
+                 ; display: inline-block;}
+        
+
+                 .third.flex{background-color:hsl(179, 100%, 13%); color: white; height:70vh; align-content:center;
+                    padding:2em; }
+                    .third.flex h3{font-size: 20px;  padding-top: 5px; padding-bottom: 30px; font-weight: 400; font-family: 'Big shoulder Display';}
+                    .third.flex p{ font-size: 15px;padding-bottom: 50px; font-weight: 400; font-family: 'lexend Deca';letter-spacing: 1px; line-height: 28px;
+                        color: hsl(0, 0%, 100%, 0.75)}
+                    .third.flex button{ color:hsl(179, 100%, 13%);  width:100px;  border-radius: 50px; background-color: white;
+                        border: none; margin: 10px; padding: 10px; cursor: pointer;
+                          display: inline-block;}
+                          a {color: aqua; background-color: black; padding: 12px; border-radius: 10px;}
+                          @media screen and (max-width:1440px) {body{ width: 100%;}
+    
+}
+@media screen and (min-width:375px) {body{width:100%}
+                
+        
