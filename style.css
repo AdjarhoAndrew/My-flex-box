@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins&display=swap");
 "{ margin: 0;
 padding: 0;
 box-sizing: border-box;}
@@ -6,43 +7,102 @@ box-sizing: border-box;}
 
 
 
-body { background-color: white; border-radius: 50px;}
+body { background-color: hsl(0, 0%, 95%);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    transition: all 0.5s;
+    font-family: "Kumbh Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+  }}
 main{ width: 50%; padding: 10px; margin: auto;
      display:flex; 
      justify-content: center; 
      align-content:center; border-radius: 20px;}
     
 
-     .first.flex{background-color:hsl(31, 77%, 52%); color: white; height:70vh; align-content: center;
+     .first.flex{background-color:hsl(31, 77%, 52%); color: white; border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);height:70vh; align-content: center; width: 300px; border-radius: 10px 0px 0px 10px;
+        height: 480px;
     padding:2em; }
-    .first.flex h3{font-size: 20px;  padding-top:5px; padding-bottom: 30px; font-weight: 700px; font-family: 'Big shoulder Display';}
-            .first.flex p{ font-size: 15px; padding-bottom:50px; padding-top: 0px; font-weight: 400; font-family: 'lexend Deca'; letter-spacing: 1px; line-height: 24px;
-                color: hsl(31, 0%, 100%, 0.75)}
-            .first.flex button{ color:hsl(31, 77%, 52%); width:100px; border-radius: 50px; background-color: white;
-                border: none; margin: 4px; padding: 10px; cursor: pointer;
-                 ; display: inline-block;}
+    .first.flex h3{ color: hsl(0, 0%, 95%);
+        margin-top: 1.5rem;
+        margin-left: 3rem;
+        font-family: "Big Shoulders Display", cursive;
+        letter-spacing: 2px;
+        font-weight: 800;
+        font-size: 40px;
+        text-transform: uppercase;}
+
+            .first.flex p{color: hsla(0, 0%, 100%, 0.75);
+                margin-top: 1.5rem;
+                margin-left: 3rem;
+                line-height: 1.5;}
+
+            .first.flex button{background-color: hsl(0, 0%, 95%);
+                padding: 15px 45px 15px 30px;
+                border: none;
+                border-radius: 25px;
+                margin-top: 5rem;
+                margin-left: 3rem;
+                font-weight: 700;}
   
 
-.second.flex{background-color:hsl(184, 100%, 22%); color: white; height:70vh; align-content:center;
+.second.flex{background-color:hsl(184, 100%, 22%); color: white; border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);height:70vh; align-content: center; width: 300px; border-radius: 10px 0px 0px 10px;
+          height: 480px;
             padding:2em; }
-            .second.flex h3{font-size: 20px;  padding-top:5px; padding-bottom: 30px; font-weight: 700px; font-family: 'Big shoulder Display';}
-            .second.flex p{ font-size: 15px; padding-bottom:50px; padding-top: 0px; font-weight: 400; font-family: 'lexend Deca';letter-spacing: 1px; line-height: 28px;
-                color: hsl(0, 0%, 100%, 0.75)}
-            .second.flex button{ color:hsl(184, 100%, 22%); width:100px; border-radius: 50px; background-color: white;
-                border: none; margin: 4px; padding: 10px; cursor: pointer;
-                 ; display: inline-block;}
+            .second.flex h3{color: hsl(0, 0%, 95%);
+                margin-top: 1.5rem;
+                margin-left: 3rem;
+                font-family: "Big Shoulders Display", cursive;
+                letter-spacing: 2px;
+                font-weight: 800;
+                font-size: 40px;
+                text-transform: uppercase;}
+            .second.flex p{ color: hsla(0, 0%, 100%, 0.75);
+                margin-top: 1.5rem;
+                margin-left: 3rem;
+                line-height: 1.5}
+            .second.flex button{ background-color: hsl(0, 0%, 95%);
+                padding: 15px 45px 15px 30px;
+                border: none;
+                border-radius: 25px;
+                margin-top: 5rem;
+                margin-left: 3rem;
+                font-weight: 700;}
         
 
-                 .third.flex{background-color:hsl(179, 100%, 13%); color: white; height:70vh; align-content:center;
-                    padding:2em; }
-                    .third.flex h3{font-size: 20px;  padding-top: 5px; padding-bottom: 30px; font-weight: 400; font-family: 'Big shoulder Display';}
-                    .third.flex p{ font-size: 15px;padding-bottom: 50px; font-weight: 400; font-family: 'lexend Deca';letter-spacing: 1px; line-height: 28px;
-                        color: hsl(0, 0%, 100%, 0.75)}
-                    .third.flex button{ color:hsl(179, 100%, 13%);  width:100px;  border-radius: 50px; background-color: white;
-                        border: none; margin: 10px; padding: 10px; cursor: pointer;
-                          display: inline-block;}
+                 .third.flex{background-color:hsl(179, 100%, 13%); color: white; border: 2px solid hsl(0, 0%, 95%);
+                    color: hsl(0, 0%, 95%);height:70vh; align-content: center; width: 300px; border-radius: 10px 0px 0px 10px;
+                          height: 480px;
+                            padding:2em; }
+                    .third.flex h3{olor: hsl(0, 0%, 95%);
+                        margin-top: 1.5rem;
+                        margin-left: 3rem;
+                        font-family: "Big Shoulders Display", cursive;
+                        letter-spacing: 2px;
+                        font-weight: 800;
+                        font-size: 40px;
+                        text-transform: uppercase;}
+                    .third.flex p{ color: hsla(0, 0%, 100%, 0.75);
+                        margin-top: 1.5rem;
+                        margin-left: 3rem;
+                        line-height: 1.5}
+                    .third.flex button{background-color: hsl(0, 0%, 95%);
+                        padding: 15px 45px 15px 30px;
+                        border: none;
+                        border-radius: 25px;
+                        margin-top: 5rem;
+                        margin-left: 3rem;
+                        font-weight: 700;}
                           a {color: aqua; background-color: black; padding: 12px; border-radius: 10px;}
-                         @media only screen and (max-width: 900px) {
+                         
+                          @media only screen and (max-width: 900px) {
                             /*Tablets */
                             body {
                               margin-top: 3rem;
@@ -63,5 +123,3 @@ main{ width: 50%; padding: 10px; margin: auto;
   .third-con {
     border-radius: 0px 0px 10px 10px;
   }
-                
-        
