@@ -42,9 +42,26 @@ main{ width: 50%; padding: 10px; margin: auto;
                         border: none; margin: 10px; padding: 10px; cursor: pointer;
                           display: inline-block;}
                           a {color: aqua; background-color: black; padding: 12px; border-radius: 10px;}
-                          @media screen and (max-width:1440px) {body{ width: 100%;}
-    
-}
-@media screen and (min-width:375px) {body{width:100%}
+                         @media only screen and (max-width: 900px) {
+                            /*Tablets */
+                            body {
+                              margin-top: 3rem;
+                            }
+                          
+                            .container {
+                              border-radius: 10px;
+                            }
+
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .first-con {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .second-con {
+    border-radius: 0;
+  }
+  .third-con {
+    border-radius: 0px 0px 10px 10px;
+  }
                 
         
